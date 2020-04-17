@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(41, 157, 165);
+}
+@media screen and (max-width: 768px) {
+}
+
+
+
+
+
