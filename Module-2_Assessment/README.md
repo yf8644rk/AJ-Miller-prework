@@ -1,1 +1,2 @@
-
+# Hangman 
+Hangman is typical hangman game. The theme is animals. If I had more time I would have made the theme more prominent and distinct. The game starts out by saying hangman animal edition and to start the player has to enter any key. Once the key is pressed it will show, wins, losses, letters already guessed and the amount of guesses. As the player inputs letters and only letters can be input, the number of guesses will go down if there guess was wrong or a correct letter will show up in the dashed line/lines. If the user wins, it will display the word with a "You Win" and the wins will go up by 1. If the user loses, if will display "You lost the correct word is " followed by the word.
