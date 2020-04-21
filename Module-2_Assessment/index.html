@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Module-2_Assessment</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="jumbotron text-center">
+            <h1>Hangman</h1>
+            <h2>Guess the Animal!</h2>
+        </div> <!-- /Jumbotron -->
+
+        <div class="container">
+
+            <div class="row text-center main-row">
+                <div class="col-md-6">
+
+                    <div class="game-image-wrapper">
+                        <div class="padding">
+
+                        </div> 
+                    </div> 
+                    
+                </div>
+                <div class="col-md-6 flexing">
+
+                    <div class="message">
+                        <h2 class="new-game">Guess the Animal</h2>
+                        <h3 class="get-started pulse">Press any key to get started!</h3>
+                    </div> 
+
+                    <div class="user-interface">
+                            
+                        <div class="current-word-wrapper">
+                            
+                            <h3>Current Word</h3>
+                            <p class="current-word">&nbsp;</p>
+
+                        </div> 
+
+                        <div class="score-board">
+                                
+                            <div class="guesses-wrapper">
+    
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                            
+                                        <h4>Guesses Remaining</h4>
+                                        <p class="guesses-remaining">10</p>
+    
+                                    </div>
+                                    <div class="col-sm-6">
+    
+                                        <h4>Letters Already Guessed</h4>
+                                        <p class="user-guesses"></p>
+    
+                                    </div>
+                                </div> 
+    
+                            </div> 
+
+                            <div class="score">
+
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                            
+                                        <h4>Wins</h4>
+                                        <p class="wins score-number">0</p>
+
+                                    </div>
+                                    <div class="col-sm-6">
+                                            
+                                        <h4>Losses</h4>
+                                        <p class="losses score-number">0</p>
+
+                                    </div>
+                                </div> <!-- /Row -->
+                            </div> <!-- /Score -->
+                        </div> <!-- /Score-Area -->
+                    </div> <!-- /User-Interface -->
+                </div> <!-- /Column -->
+            </div> <!-- /Row -->
+        </div>  <!-- /Container -->
+        
+        <script src="assets/javascript/game.js"></script>
+    </body>
+</html>

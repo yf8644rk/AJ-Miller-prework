@@ -1,0 +1,170 @@
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgb(175, 167, 167);
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Amiri", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h2.span {
+    font-weight: bold;
+}
+
+p {
+    color: #b8b8b8;
+}
+
+/* Main body */
+html,
+body {
+    height: 100%;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    background-image: url(../images/nature_pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -160px;
+    padding: 0 0 220px;
+}
+
+.main-row {
+    display: block;
+}
+
+.flexing {
+    position: relative;
+}
+
+/* Jumbotron */
+.jumbotron {
+    padding-bottom: 0;
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    font-size: 5em;
+    color: #02887F;
+    margin-bottom: 0;
+}
+
+.jumbotron h2 {
+    font-size: 3.857em;
+    margin-top: 0;
+}
+
+/* Message */
+
+h2.new-game {
+    margin: 60px 0;
+}
+
+.message h2 {
+    font-size: 3.571em;
+}
+
+.message h3 {
+    font-size: 2.143em;
+}
+/* Game End */
+
+h2.game-end {
+    width: 100%;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #A6C043;
+    margin-bottom: 50px;
+}
+
+h2.game-end span {
+    display: block;
+    width: 100%;
+    font-family: "Amiri", Arial, Helvetica, sans-serif;
+    font-size: 0.6em;
+    font-weight: 400;
+    color: #292929;
+    border-top: 5px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    padding: 20px 0;
+}
+/* Current Word Area */
+.user-interface {
+    display: none;   
+}
+
+.space {
+    margin: 0 10px;
+}
+
+.current-word {
+    font-size: 2.857em;
+    font-weight: bold;
+    letter-spacing: 14px;
+}
+
+.current-word-wrapper {
+    padding: 30px 0;
+}
+
+/* Scoreboard */
+.score-board {
+    width: 100%;
+    background: rgb(161, 118, 95);
+    border: 8px solid black;
+    border-radius: 16px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.score h4 {
+    font-weight: 700;
+    color: #FFF;
+    background-color: rgb(126, 145, 44);
+    border: 2px solid rgb(192, 218, 78);
+    border-radius: 7px;
+    padding: 6px;
+}
+
+.score-number {
+    font-size: 1.429em;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.guesses-wrapper h4 {
+    font-size: 1em;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+    background: rgb(115, 70, 44);
+    border-radius: 7px;
+    padding: 10px 0;
+}
+
+.guesses-wrapper p {
+    font-size: 1.429em;
+    color: rgba(255, 255, 255, 0.9);
+}
+/* Responsive CSS */
+@media (min-width: 992px) {
+    .main-row {
+        display: flex;
+    }
+    .score-board {
+        position: absolute;
+        width: calc(100% - 30px);
+        bottom: 0;
+    }
+}
+
+
